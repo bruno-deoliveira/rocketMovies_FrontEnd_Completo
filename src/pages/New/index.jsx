@@ -84,6 +84,17 @@ export function New() {
     navigate(-1);
   }
 
+  function handleDiscardMovie() {
+    const userConfirmation = confirm(
+      "Todas as alterações serão perdidas... Tem certeza que deseja descartar as alterações?"
+    );
+
+    if (userConfirmation) {
+      navigate(-1);
+    }
+  }
+
+
   
 
 
@@ -165,7 +176,7 @@ export function New() {
           </Section>
 
           <div>
-            <Button title="Excluir filme" />
+            <Button title="Excluir filme" onClick={handleDiscardMovie} />
             <Button title="Salvar" onClick={handleNewNote} />
           </div>
         </Form>
