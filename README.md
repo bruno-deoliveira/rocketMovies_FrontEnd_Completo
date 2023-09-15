@@ -50,7 +50,7 @@ $ npm run dev
 🚨 Nota Importante: Este projeto utiliza uma hospedagem gratuita para seu backend, portanto, pode haver atrasos no tempo de resposta do servidor.
 
 ## 📝 Licença
-Esse projeto está sob a licença [MIT](). Veja o arquivo LICENSE para mais detalhes.
+Esse projeto está sob a licença [MIT](https://github.com/bruno-deoliveira/rocketMovies_FrontEnd_Completo/blob/main/LICENSE). Veja o arquivo LICENSE para mais detalhes.
 
 ## 📞 Suporte
 Para suporte, mande um e-mail para brunoalmeida0805@gmail.com Grato!
